@@ -4,6 +4,49 @@
     padding: 0;
 }
 
+.header{
+    background-color: rgba(173,216,230,255);
+}
+
+.logo-container{
+    display: flex;
+    column-gap: 1rem;
+}
+
+
+nav{
+    width: 920px;
+    margin: auto;
+    border: 1px dotted black;
+}
+
+.logo-container .title-logo{
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+header{
+    background-color: rgba(173,216,230,255);
+}
+
+.bg-blue{
+    background-color: rgba(0,0,139,255);
+}
 
 section{
     padding: 40px 0;
@@ -27,13 +70,25 @@ section{
     padding: 20px;
     border: 1px solid yellow;
     flex-grow: 1;
+    padding: 50px 0;
 }
 
 .col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
     background-color: rgba(30,144,255,255);
 }
 
 .col-1{
     background-color: rgba(255,192,203,255);
 }
+
+.bg-grey{
+    background-color: rgba(211,211,211,255);
+}
+
+    
+
+.bg-green{
+    background-color: rgba(34,139,34,255);
+}
+*/
