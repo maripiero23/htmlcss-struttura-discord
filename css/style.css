@@ -17,13 +17,25 @@
 nav{
     width: 920px;
     margin: auto;
+    display: flex;
     border: 1px dotted black;
+    justify-content: space-between;
+    background-color: rgba(218,165,32,255);
 }
 
 .logo-container .title-logo{
     width: 60px;
+    border: 1px dotted black;
+
 }
 
+ul{
+    display: flex;
+    list-style: none;
+    grow: 1;
+    border: 1px dotted black;
+
+}
 
 
 
