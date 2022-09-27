@@ -141,59 +141,11 @@ footer{
 
 }
 
-
-
-
-/*
-header{
-    background-color: rgba(173,216,230,255);
-}
-
-.bg-blue{
-    background-color: rgba(0,0,139,255);
-}
-
-section{
-    padding: 40px 0;
-}
-
-
-.container{
-    width: 920px;
-    margin: 0 auto;
-    border: 2px solid blue;
-    padding: 20px
-}
-
-
-.row{
+.row-logonutt{
     display: flex;
-    border: 1px solid green;
+    justify-content: space-between;
 }
 
-.col{
-    padding: 20px;
-    border: 1px solid yellow;
-    flex-grow: 1;
-    padding: 50px 0;
+.col-logobutt{
+    background-color: rgba(127,255,212,255);
 }
-
-.col-2{
-    flex-basis: 55%;
-    background-color: rgba(30,144,255,255);
-}
-
-.col-1{
-    background-color: rgba(255,192,203,255);
-}
-
-.bg-grey{
-    background-color: rgba(211,211,211,255);
-}
-
-    
-
-.bg-green{
-    background-color: rgba(34,139,34,255);
-}
-*/
