@@ -11,25 +11,28 @@
 .logo-container{
     display: flex;
     width: 15%;
+    border: 1px dotted black;
+
 }
 
 
-nav{
+header nav{
     width: 920px;
     margin: auto;
     display: flex;
     border: 1px dotted black;
     justify-content: space-between;
     background-color: rgba(218,165,32,255);
+    padding: 0 5px;
 
 }
 
 .logo-container .title-logo{
-    width: 60px;
-    border: 1px dotted black;
+    flex-grow: 1;
+
 }
 
-ul{
+.link-container ul{
     display: flex;
     list-style: none;
     border: 1px dotted black;
@@ -39,20 +42,40 @@ ul{
 
 .link-container{
     width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-container ul li{
+    align-items: center;
+
 }
 
 .login-container{
     width: 15%;
     display: flex;
+    text-align: end;
 }
 
 
 
 .title-login{
-    text-align: end;
+    flex-grow: 1;
 }
 
 
+section{
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    padding: 20px;
+}
 
 
 
