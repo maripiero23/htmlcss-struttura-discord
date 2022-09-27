@@ -67,20 +67,49 @@ header nav{
 
 section{
     padding: 20px;
-    border: 1px solid red;
 }
 
 .container{
     width: 920px;
     margin: 0 auto;
-    border: 1px dashed black;
     padding: 20px;
 }
 
+header{   
+    background-color:rgba(173,216,230,255) ;
+}
+.bg-grey{
+    background-color: rgba(211,211,211,255);
+}
+
+.bg-blue{
+    background-color: rgba(0,0,139,255);
+}
+
+.row{
+    display: flex;
+    border: 1px dashed black;
+}
+
+.col{
+    padding: 20px;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.col-1{
+    width: 61%;
+    background-color: rgba(30,144,255,255);
+}
+
+.bg-pink{
+    background-color: rgba(238,130,238,255);
+}
 
 
-
-
+.container-small{
+    width: 700px;
+}
 
 
 
